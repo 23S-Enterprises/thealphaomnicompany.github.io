@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "AlphaOmniV1",
-    "currentPage": "home.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1301,7 +1301,7 @@
         }
       ]
     },
-    "home.html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "The Alpha Omni Company | Powerful Tech Services To Fit Your Budget",
