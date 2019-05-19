@@ -39,13 +39,14 @@
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
-    "siteUrl": "",
+    "siteUrl": "https://thealphaomnicompany.com",
     "sitemapSwitcherAuto": "on",
     "favicon": "",
     "noImageResize": "",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "gdpr": "",
-    "google-analytics": ""
+    "google-analytics": "",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "faq.html": {
