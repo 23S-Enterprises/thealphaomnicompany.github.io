@@ -588,8 +588,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 #scrollToTop a i:before {
   content: '';
@@ -1387,11 +1387,31 @@ body {
   background-color: #149dcc;
   color: #ffffff;
 }
-.jq-selectbox .jq-selectbox__trigger-arrow {
-  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
 }
-.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
   border-top-color: #149dcc;
+  border-bottom-color: #149dcc;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #149dcc !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #ffffff !important;
+  background: #ff3366 !important;
+  box-shadow: none !important;
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
@@ -1778,6 +1798,14 @@ body {
   padding-top: 135px;
   padding-bottom: 105px;
   background-image: url("../../../assets/images/background4-7.jpg");
+}
+.cid-rtntUx2Har {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rtntUx2Har .mbr-section-subtitle {
+  color: #767676;
 }
 .cid-rno55LRQ6h {
   padding-top: 60px;
@@ -2346,28 +2374,62 @@ body {
   padding-bottom: 105px;
   background-image: url("../../../assets/images/background4-7.jpg");
 }
-.cid-rno6dGb3KQ {
-  padding-top: 120px;
+.cid-rtny0DgE8g {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-rtny0DgE8g .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rtntP8NJdH {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rtntP8NJdH .mbr-section-subtitle {
+  color: #2e2e2e;
+  text-align: center;
+}
+.cid-rtntP8NJdH H2 {
+  text-align: center;
+}
+.cid-rtnunFgUtB {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rtnunFgUtB .mbr-section-subtitle {
+  color: #2e2e2e;
+}
+.cid-rtnuojFu5x {
+  padding-top: 60px;
   padding-bottom: 120px;
   background-color: #ffffff;
 }
-.cid-rno6dGb3KQ .line {
+.cid-rtnuojFu5x .mbr-section-subtitle {
+  color: #2e2e2e;
+}
+.cid-rtnAgtNjBV {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: #ffffff;
-  color: #ffffff;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
 }
-.cid-rno6dGb3KQ .section-text {
-  padding: 2rem 0;
+.cid-rtnAgtNjBV .title {
+  margin-bottom: 2rem;
 }
-.cid-rno6dGb3KQ .inner-container {
-  margin: 0 auto;
+.cid-rtnAgtNjBV .mbr-section-subtitle {
+  color: #767676;
 }
-@media (max-width: 768px) {
-  .cid-rno6dGb3KQ .inner-container {
-    width: 100% !important;
-  }
+.cid-rtnAgtNjBV a:not([href]):not([tabindex]) {
+  color: #fff;
+  border-radius: 3px;
+}
+.cid-rtnAgtNjBV a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
+}
+.cid-rtnAgtNjBV textarea.form-control {
+  min-height: 188px;
 }
 .cid-rpCilTkHAH {
   padding-top: 30px;
@@ -2829,7 +2891,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-rmJkHX4wcl {
-  background-image: url("../../../assets/images/background43.jpg");
+  background-image: url("../../../assets/images/background40.jpg");
 }
 .cid-rn9Jxta51c {
   padding-top: 60px;
@@ -3219,7 +3281,7 @@ body {
 .cid-rmUYcrGmIp {
   padding-top: 120px;
   padding-bottom: 75px;
-  background-image: url("../../../assets/images/background43.jpg");
+  background-image: url("../../../assets/images/background40.jpg");
 }
 .cid-rmUYcrGmIp .title {
   margin-bottom: 2rem;
