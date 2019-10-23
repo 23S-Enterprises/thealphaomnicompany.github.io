@@ -65,7 +65,7 @@
       "icon": "@PROJECT_PATH@/assets/images/pwa-app-icon-512x512.png",
       "themeColor": "#e7164a"
     },
-    "pwa-switcher": "on",
+    "pwa-switcher": true,
     "mcShopcart": {
       "iconSize": "30",
       "iconColor": "#FFFFFF",
@@ -86,7 +86,8 @@
       "settings": {
         "meta_descr": "Frequently Asked Questions and Answers made to our awesome team by our awesome clients and prospects!",
         "title": "FAQ | The Alpha Omni Company",
-        "order": 10
+        "order": 10,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1167.jpg"
       },
       "components": [
         {
@@ -795,7 +796,8 @@
       "settings": {
         "meta_descr": "Want to take your career to the next level? Join a team of professionals today and get on track to Dominate Everything",
         "title": "Careers | The Alpha Omni Company",
-        "order": 13
+        "order": 13,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1-1920x1281.jpg"
       },
       "components": [
         {
@@ -1522,7 +1524,8 @@
         "meta_descr": "Riverside specialists in Web Services, Marketing, and Social Media Management. Explore our Website Design, SEO, Marketing, Billboards, AdWords and other services today!",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/copy-of-alpha-omni-logo-180x105.png"
       },
       "components": [
         {
@@ -1922,7 +1925,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"5\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#ff3366\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://thealphaomnicompany.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/copy-of-alpha-omni-logo-180x105.png\" alt=\"Web, Social & Digital Design | The Alpha Omni Company Logo\" mbr-style=\"{'height': logoSize + 'rem'}\" title=\"Logo-The Alpha Omni Company\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\"></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-white dropdown-toggle\" href=\"web-services.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-globe mbr-iconfont mbr-iconfont-btn\"></span>Web Services</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"web-services.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">All Web Services</a><a class=\"text-white dropdown-item\" href=\"web-services.html#content4-3m\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Web Design</a><a class=\"text-white dropdown-item\" href=\"web-services.html#content4-3n\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">S.E.O.</a><a class=\"text-white dropdown-item\" href=\"web-services.html#content4-3o\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Localization (Listings)</a><a class=\"text-white dropdown-item\" href=\"pre-packaged-seo-services.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Pre-Packaged S.E.O.</a><a class=\"text-white dropdown-item\" href=\"full-online-reputation-management.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">F.O.R.M.</a></div>\n                </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"marketing-services.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-contact-form mbr-iconfont mbr-iconfont-btn\"></span>Marketing Services</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"marketing-services.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">All Marketing Services</a><a class=\"text-white dropdown-item\" href=\"marketing-services.html#counters4-4q\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Social Media Marketing</a><a class=\"text-white dropdown-item\" href=\"marketing-services.html#counters4-4n\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Google AdWords</a><a class=\"text-white dropdown-item\" href=\"marketing-services.html#counters4-4r\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Outside-of-Home</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"social-media-management.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>Social Media Management</a></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-info mbr-iconfont mbr-iconfont-btn\"></span>More</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">A Bit About Us</a><a class=\"text-white dropdown-item\" href=\"about.html#team1-3i\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">&nbsp;Meet Our Valued Team</a><a class=\"text-white dropdown-item\" href=\"about.html#counters1-3f\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Lifetime Stats</a><a class=\"text-white dropdown-item\" href=\"contact.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Contact Us</a><a class=\"text-white dropdown-item\" href=\"careers.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Careers</a><a class=\"text-white dropdown-item\" href=\"faq.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">FAQ</a><a class=\"text-white dropdown-item\" href=\"the-elite-project.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">The Elite Project</a><a class=\"text-white dropdown-item\" href=\"web-design-vocabulary.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Web Development Vocab</a></div></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"https://calendly.com/chatwithjeremy/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>\n                    Free Consultation</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"5\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#ff3366\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://thealphaomnicompany.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/copy-of-alpha-omni-logo-180x105.png\" alt=\"Web, Social & Digital Design | The Alpha Omni Company Logo\" mbr-style=\"{'height': logoSize + 'rem'}\" title=\"Logo-The Alpha Omni Company\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\"></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown open\">\n                    <a class=\"nav-link link text-white dropdown-toggle\" href=\"web-services.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-globe mbr-iconfont mbr-iconfont-btn\"></span>Web Services</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"web-services.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">All Web Services</a><a class=\"text-white dropdown-item\" href=\"web-services.html#content4-3m\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Web Design</a><a class=\"text-white dropdown-item\" href=\"web-services.html#content4-3n\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">S.E.O.</a><a class=\"text-white dropdown-item\" href=\"web-services.html#content4-3o\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Localization (Listings)</a><a class=\"text-white dropdown-item\" href=\"pre-packaged-seo-services.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Pre-Packaged S.E.O.</a><a class=\"text-white dropdown-item\" href=\"full-online-reputation-management.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">F.O.R.M.</a></div>\n                </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"marketing-services.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-contact-form mbr-iconfont mbr-iconfont-btn\"></span>Marketing Services</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"marketing-services.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">All Marketing Services</a><a class=\"text-white dropdown-item\" href=\"marketing-services.html#counters4-4q\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Social Media Marketing</a><a class=\"text-white dropdown-item\" href=\"marketing-services.html#counters4-4n\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Google AdWords</a><a class=\"text-white dropdown-item\" href=\"marketing-services.html#counters4-4r\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Outside-of-Home</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"social-media-management.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>Social Media Management</a></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-info mbr-iconfont mbr-iconfont-btn\"></span>More</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">A Bit About Us</a><a class=\"text-white dropdown-item\" href=\"about.html#team1-3i\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">&nbsp;Meet Our Valued Team</a><a class=\"text-white dropdown-item\" href=\"about.html#counters1-3f\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Lifetime Stats</a><a class=\"text-white dropdown-item\" href=\"contact.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Contact Us</a><a class=\"text-white dropdown-item\" href=\"careers.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Careers</a><a class=\"text-white dropdown-item\" href=\"faq.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">FAQ</a><a class=\"text-white dropdown-item\" href=\"the-elite-project.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">The Elite Project</a><a class=\"text-white dropdown-item\" href=\"web-design-vocabulary.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Web Development Vocab</a></div></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"https://calendly.com/chatwithjeremy/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>\n                    Free Consultation</a></div>\n        </div>\n    </nav>\n</section>",
           "_anchor": "menu1-2m",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -2797,7 +2800,8 @@
       "settings": {
         "meta_descr": "Take a quick peek behind the scenes at The Alpha Omni Company! Get the 411 on who, what, where and why! ",
         "title": "About | The Alpha Omni Company",
-        "order": 11
+        "order": 11,
+        "meta_image": "@PROJECT_PATH@/assets/images/copy-of-alpha-omni-logo-180x105.png"
       },
       "components": [
         {
@@ -3687,7 +3691,8 @@
       "settings": {
         "meta_descr": "Trying to reach us? The Alha Omni Company can be contacted in multiple different ways including by our phone number, email, social media profiles or by filling out a contact form today!",
         "title": "Contact | The Alpha Omni Company",
-        "order": 12
+        "order": 12,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-5-1920x1280.jpg"
       },
       "components": [
         {
@@ -4341,7 +4346,8 @@
       "settings": {
         "meta_descr": "We use some terminology in our reports and websites that you may not be familiar with. We're happy to provide a valuable resource full of web, marketing and social media vocabulary.",
         "title": "Policies: Privacy Policy & Terms of Service | The Alpha Omni Company",
-        "order": 14
+        "order": 14,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1136.jpg"
       },
       "components": [
         {
@@ -4953,7 +4959,8 @@
       "settings": {
         "meta_descr": "Take advantage of our robust Social Media Management service. We'll handle content design, post scheduling and engaging the audience to attract new followers. Let's watch your Social profile explode!",
         "title": "Social Media Management | The Alpha Omni Company",
-        "order": 6
+        "order": 6,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-4-1920x1280.jpg"
       },
       "components": [
         {
@@ -5600,7 +5607,8 @@
       "settings": {
         "meta_descr": "From AdWords, to Social Media and everywhere Out-of-Home! We can distribute your message wherever you want and to whomever you please! ",
         "title": "Marketing Services: Online & Out-of-Home | The Alpha Omni Company",
-        "order": 5
+        "order": 5,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1281.jpg"
       },
       "components": [
         {
@@ -6574,9 +6582,10 @@
     },
     "web-design-vocabulary.html": {
       "settings": {
-        "meta_descr": "Web Maker Description",
+        "meta_descr": "Web, Marketing and Social Media Terms can get a little deep. We go over some of the most commonly used terms to help you understand what we mean when we say things.",
         "title": "Web, Marketing and Social Media Vocabulary | The Alpha Omni Company",
-        "order": 7
+        "order": 7,
+        "meta_image": "file:///Applications/Mobirise.app/Contents/Resources/app.asar/web/app/builder/../../app/themes/mobirise4/components/header2/../_images/background4.jpg"
       },
       "components": [
         {
@@ -7544,7 +7553,8 @@
       "settings": {
         "meta_descr": "S.E.O. Services priced for your budget. Some websites are smaller, requiring less labor for Search Engine Optimization. We've packaged up our S.E.O. Services by SIZE to save you money without costing you results.",
         "title": "Pre-Packaged S.E.O. | The Alpha Omni Company",
-        "order": 3
+        "order": 3,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1392x870.jpg"
       },
       "components": [
         {
@@ -8495,7 +8505,8 @@
       "settings": {
         "meta_descr": "Our Web Services are hard to compete with. Website Design, SEO and Business Localization (listings and reviews) are he core services we provide to our web clients.",
         "title": "Web Services: Design, SEO & Localization | The Alpha Omni Company",
-        "order": 2
+        "order": 2,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg"
       },
       "components": [
         {
@@ -9336,7 +9347,8 @@
       "settings": {
         "meta_descr": "The Elite Project is a High Success Business Mentorship, with a focus in Hemp and Cannabis by Dan Brandt of Elite Projecting Consulting and Jeremy Bebe of The Alpha Omni Company.",
         "title": "The Elite Project | The Alpha Omni Company",
-        "order": 8
+        "order": 8,
+        "meta_image": "@PROJECT_PATH@/assets/images/logo-the-elite-project-2-500x500.jpg"
       },
       "components": [
         {
@@ -10036,9 +10048,10 @@
     },
     "our-partners.html": {
       "settings": {
-        "meta_descr": "Web Page Builder Description",
+        "meta_descr": "The Alpha Omni Company has build some strong relationships over the years since its inception. Please click through to see information on our trusted partner companies.",
         "title": "Our Partners | The Alpha Omni Company",
-        "order": 9
+        "order": 9,
+        "meta_image": "@PROJECT_PATH@/assets/images/copy-of-alpha-omni-logo-180x105.png"
       },
       "components": [
         {
@@ -10716,9 +10729,10 @@
     },
     "our-services.html": {
       "settings": {
-        "meta_descr": "",
+        "meta_descr": "Bespoke marketing services designed to accerelrate growth and achieve a powerful online presence!",
         "title": "Our Services | The Alpha Omni Company",
-        "order": 1
+        "order": 1,
+        "meta_image": "@PROJECT_PATH@/assets/images/copy-of-alpha-omni-logo-180x105.png"
       },
       "components": [
         {
@@ -11228,7 +11242,8 @@
       "settings": {
         "meta_descr": "Full Online Reputation Management. We've take the liberty to bundle our robust Web Design, SEO and Social Media Management Packages for one low monthly price!",
         "title": "Full Online Reputation Management | The Alpha Omni Company",
-        "order": 4
+        "order": 4,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1-1920x1271.jpg"
       },
       "components": [
         {
