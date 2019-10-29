@@ -2726,6 +2726,18 @@ section.lazy-placeholder:after {
 #instagram-feed-block-12 .inst__title {
   color: #232323;
 }
+.cid-rGiADnhEaw {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+}
+.cid-rGiADnhEaw .mbr-iconfont-social {
+  font-size: 32px;
+  color: #333333;
+}
+.cid-rGiADnhEaw .social-list a:focus {
+  text-decoration: none;
+}
 .cid-rmUYcrGmIp {
   padding-top: 120px;
   padding-bottom: 75px;
